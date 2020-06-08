@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-//Aşşağıda 3 Elemanlı Bir Struct Veri Dizisi Tanımlanmıştır.Yapılması Gereken Tek Şey Biten Parantezdeki Kullanılacak Kısaltmanın İçine 
-// Köşeli Parantez İle Değererini Yazmaktır.
+//AÅŸÅŸaÄŸÄ±da 3 ElemanlÄ± Bir Struct Veri Dizisi TanÄ±mlanmÄ±ÅŸtÄ±r.YapÄ±lmasÄ± Gereken Tek Åey Biten Parantezdeki KullanÄ±lacak KÄ±saltmanÄ±n Ä°Ã§ine 
+// KÃ¶ÅŸeli Parantez Ä°le DeÄŸererini YazmaktÄ±r.
 	int s;
 	
 struct Ogrenci
@@ -12,15 +12,15 @@ struct Ogrenci
 	int Sinif;
 }ogr[3]={
 
-{"Serkan","Polat",529,1},	//Her Bir Parantez Dizinin Değerini Verir.İlk Parantez Dizinin 0.İndexsine Atama Yapar.
-{"Feto","Picakci",22,2},	//1.İndexse Değer Ataması
-{"Kafir","Bayrak",503,3},	//2.İndexe Değer Ataması
-//Aralar Virgülle Ayrılır En Sonda Köşeli Paranteze ; Konularak Değer Atama İşlemi Bitirilir.
+{"Serkan","Polat",529,1},	//Her Bir Parantez Dizinin DeÄŸerini Verir.Ä°lk Parantez Dizinin 0.Ä°ndexsine Atama Yapar.
+{"Beyto","Picakci",22,2},	//1.Ä°ndexse DeÄŸer AtamasÄ±
+{"Baris","Bayrak",503,3},	//2.Ä°ndexe DeÄŸer AtamasÄ±
+//Aralar VirgÃ¼lle AyrÄ±lÄ±r En Sonda KÃ¶ÅŸeli Paranteze ; Konularak DeÄŸer Atama Ä°ÅŸlemi Bitirilir.
 };
 
 int main()
 {
-	//Sıralama
+	//SÄ±ralama
 	for(int i=0;i<3;i++)
 	{
 		printf("%s\t%s\t%d\t%d\n",ogr[i].Ad,ogr[i].Soyad,ogr[i].No,ogr[i].Sinif);
